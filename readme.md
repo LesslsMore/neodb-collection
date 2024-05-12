@@ -13,6 +13,6 @@ https://neodb.social/collection/
 人数
 评分
 
-正序逆序排序
+升序降序排序
 
 便于寻找出收藏单中未标记的电影
