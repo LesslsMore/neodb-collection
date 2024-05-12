@@ -7,8 +7,12 @@ export default defineConfig({
     monkey({
       entry: 'src/main.js',
       userscript: {
-        icon: 'https://vitejs.dev/logo.svg',
-        namespace: 'npm/vite-plugin-monkey',
+        name: 'neodb 收藏单 筛选、排序',
+        namespace: 'https://github.com/LesslsMore/neodb-collection',
+        version: '0.0.1',
+        author: 'lesslsmore',
+        license: 'MIT',
+        description: 'neodb 收藏单 筛选、排序',
         match: ['https://neodb.social/collection/*'],
       },
     }),
